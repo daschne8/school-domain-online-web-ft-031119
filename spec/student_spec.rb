@@ -56,7 +56,6 @@ describe 'School' do
 
       # key order does not matter; this is testing that the students in each respective value are in alphabetical order
       expect(@school.sort).to eq({7 => ["Blake Johnson", "Jack Bauer"], 9 => ["Bart Simpson", "Homer Simpson"], 10 => ["Avi Flombaum", "Jeff Baird"]})
-      binding.pry
     end
   end
 end
