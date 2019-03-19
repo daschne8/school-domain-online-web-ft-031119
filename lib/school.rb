@@ -1,3 +1,4 @@
+require 'pry'
 class School
   attr_accessor
   attr_reader :name, :roster
@@ -19,3 +20,4 @@ class School
     end
   end
 end
+binding.pry
